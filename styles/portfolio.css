@@ -18,6 +18,20 @@ body {
     padding: 15px 35px;
 }
 
+.btn-secondary {
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FD6E0A;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+
 .section-title {
     color: #181818;
     text-align: center;
@@ -64,9 +78,9 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -212,23 +226,31 @@ footer {
 .footer-column {
     width: 50%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 25px;
 }
-.contact input,textarea {
+
+.contact input,
+textarea {
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
-    
+
     border-radius: 5px;
-    
+
     border: 0;
 }
-.contact input[type="text"],input[type="email"],textarea{
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     background-color: #FFF;
     color: #757575;
 }
-.footer-column > h3,.section-description{
+
+.footer-column>h3,
+.section-description {
     text-align: justify;
 }
